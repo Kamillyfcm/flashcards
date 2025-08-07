@@ -1,8 +1,25 @@
 body{
-    background-color: pink;
+    background-color: #FFAFCC;
     font-family: Bai Jamjuree;
 }
 
+#container{
+    display: flex;
+}
+
+.cartao{
+    margin: 1rem 1rem;
+    background-color: #B9FBC0;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33%-6rem);
+}
+
+.cartao__conteudo{
+    text-align: center;
+    /* background-color: aquamarine; */
+    height: 100%;
+}
 footer {
     background-color: black;
     color: white;
@@ -12,6 +29,18 @@ footer {
     height: 2rem;
 
 }
+
+.cartao__conteudo h3{
+background-color: #AAF683;
+text-align: left;
+padding: 0.5rem;
+position:absolute;
+margin: 10rem;
+border-radius: 0.1rem;
+font-size: 1vw;
+
+}
+
 
 footer p {
     text-align: center;
