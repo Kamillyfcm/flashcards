@@ -1,5 +1,12 @@
+:root {
+    --text-color: #3a5a40;
+    --card-front-color: #c1fba4;
+    --card-back-color: #ffffffff;
+}
+
+
 body{
-    background-color: #FFAFCC;
+    background: url('img/fundokamilly.png');
     font-family: Bai Jamjuree;
 }
 
@@ -9,17 +16,20 @@ body{
 
 .cartao{
     margin: 1rem 1rem;
-    background-color: #B9FBC0;
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33%-6rem);
 }
 
-.cartao__conteudo{
+.cartao__conteudo {
+    background-color: var(--card-front-color);
     text-align: center;
     /* background-color: aquamarine; */
     height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
 }
+
 footer {
     background-color: black;
     color: white;
@@ -31,14 +41,38 @@ footer {
 }
 
 .cartao__conteudo h3{
-background-color: #AAF683;
-text-align: left;
+color: var(--text-color);
+border: 1px solid var(--text-color);
+text-align: center;
 padding: 0.5rem;
-position:absolute;
-margin: 10rem;
+position:;
+margin: 1rem;
 border-radius: 0.1rem;
 font-size: 1vw;
 
+}
+
+.cartao__conteudo__pergunta p {
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.cartao:hover .cartao__conteudo {
+    transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+
+
+.cartao__conteudo__resposta p {
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 20px
 }
 
 
