@@ -22,3 +22,19 @@ criaCartao(
     'Central do Brasil'
 )
 
+    criaCartao(
+    'Filmes',
+    'Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.',
+    'Barbie'
+    )
+    criaCartao(
+        'Filmes',
+        'Na Terra de Oz, uma jovem de pele verde forma uma improvável amizade com uma estudante popular chamada Glinda.',
+        'Wicked'
+    )
+
+    criaCartao(
+        'Séries',
+        'Ele é um especialista forense que trabalha para o departamento de polícia de Miami. Ele passa os dias analisando manchas de sangue em cenas de crime, mas, sob a escuridão da noite, ele se torna um assassino em série. No entanto, ele segue um código rigoroso, caçando e matando apenas outros assassinos que escaparam da justiça.',
+
+    )
