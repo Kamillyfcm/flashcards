@@ -18,7 +18,7 @@ criaCartao(
 
 criaCartao(
     'Filmes',
-    'Esse filme é sobre uma mulher que trabalha escrevendo cartas para analfabetos na Central do Brasil e, ao conhecer um menino perdido, embarca em uma jornada de autodescoberta e redenção?',
+    'Esse filme é sobre uma mulher que escreve cartas para analfabetos na Central do Brasil e, ao conhecer um menino perdido, embarca em uma jornada de autodescoberta e redenção?',
     'Central do Brasil'
 )
 
@@ -35,6 +35,17 @@ criaCartao(
 
     criaCartao(
         'Séries',
-        'Ele é um especialista forense que trabalha para o departamento de polícia de Miami. Ele passa os dias analisando manchas de sangue em cenas de crime, mas, sob a escuridão da noite, ele se torna um assassino em série. No entanto, ele segue um código rigoroso, caçando e matando apenas outros assassinos que escaparam da justiça.',
+        'Ele é um analista forense que, secretamente, caça e mata criminosos que escaparam da justiça. De que série estamos falando?',
+        'Dexter'
+    )
 
+    criaCartao (
+        'Séries',
+        'A mãe solteira e autossuficiente Lorelai Gilmore equilibra seu relacionamento tumultuado com seus pais conservadores enquanto cria sua filha adolescente, Rory.',
+        'Gilmore Girls'
+    )
+    criaCartao (
+        'Séries',
+        'dade de Hawkins. Eles enfrentam criaturas monstruosas, agências secretas do governo e se aventuram em dimensões paralelas.',
+        'Stranger Things'
     )
